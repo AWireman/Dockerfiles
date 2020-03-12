@@ -1,0 +1,2 @@
+alias builddev='docker build --rm -f Dockerfile -t ubuntu:awireman .'
+alias rundev='docker run -it -u dev -v /home/docker/pool:/mnt ubuntu:awireman'
