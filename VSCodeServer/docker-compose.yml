@@ -1,0 +1,8 @@
+version: '3'
+services:
+        web:
+                build:
+                        context: /mnt/pool/3_Dev/git/Dockerfiles/VSCodeServer
+                        dockerfile: Dockerfile
+                ports: 
+                        - "8080:8080"
